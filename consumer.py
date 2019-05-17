@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding=utf8
 
-from mq_http_sdk.mq_exception import MQExceptionBase
-from mq_http_sdk.mq_producer import *
-from mq_http_sdk.mq_client import *
+from mq_http_aliyun_sdk.mq_exception import MQExceptionBase
+from mq_http_aliyun_sdk.mq_producer import *
+from mq_http_aliyun_sdk.mq_client import *
 
 #初始化 client
 mq_client = MQClient(
