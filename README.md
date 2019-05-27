@@ -24,12 +24,19 @@ pip install mq_http_aliyun_sdk
 #初始化 client
 
 mq_client = MQClient(
+
     #设置HTTP接入域名（此处以公共云生产环境为例）
+    
     "xxxxxx",
+    
     #AccessKey 阿里云身份验证，在阿里云服务器管理控制台创建
+    
     "xxxxxx",
+    
     #SecretKey 阿里云身份验证，在阿里云服务器管理控制台创建
+    
     "xxxxxx"
+    
     )
 
 #所属的 Topic
