@@ -21,9 +21,9 @@ pip install mq_http_aliyun_sdk
 ```
 # 示例
 ## consumer
-#初始化 client
+    #初始化 client
 
-mq_client = MQClient(
+    mq_client = MQClient(
 
     #设置HTTP接入域名（此处以公共云生产环境为例）
     
@@ -39,17 +39,18 @@ mq_client = MQClient(
     
     )
 
-#所属的 Topic
+    #所属的 Topic
 
-topic_name = "xxxxxxx"
+    topic_name = "xxxxxxx"
 
-#Topic所属实例ID，默认实例为空None
+    #Topic所属实例ID，默认实例为空None
 
-instance_id = "xxxxxx"
+    instance_id = "xxxxxx"
 
-group_id = 'xxxxxxxx'
+    group_id = 'xxxxxxxx'
 
-consumer = mq_client.get_consumer(instance_id, topic_name, group_id)
+    consumer = mq_client.get_consumer(instance_id, topic_name, group_id)
+1
 
 ## Notice
 
