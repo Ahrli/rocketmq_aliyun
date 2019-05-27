@@ -19,7 +19,7 @@ Python version: [3.0,3.7]
 ```bash
 pip install mq_http_aliyun_sdk
 ```
-# 示例
+# 示例 参考consumer.py 和produt.py文件
 ## consumer
     #初始化 client
 
@@ -50,7 +50,7 @@ pip install mq_http_aliyun_sdk
     group_id = 'xxxxxxxx'
 
     consumer = mq_client.get_consumer(instance_id, topic_name, group_id)
-1
+
 
 ## Notice
 
